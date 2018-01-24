@@ -1,7 +1,7 @@
 =begin
 #Alfresco Content Services REST API
 
-#**Core API**  Provides access to the core features of Alfresco Content Services. 
+#**Core API**  Provides access to the core features of Alfresco Content Services.
 
 OpenAPI spec version: 1
 
@@ -15,7 +15,7 @@ require 'date'
 module AlfrescoAPI
 
   class NodeBodyCreate
-    # The name must not contain spaces or the following special characters: * \" < > \\ / ? : and |. The character . must not be used at the end of the name. 
+    # The name must not contain spaces or the following special characters: * \" < > \\ / ? : and |. The character . must not be used at the end of the name.
     attr_accessor :name
 
     attr_accessor :node_type
@@ -84,7 +84,7 @@ module AlfrescoAPI
       end
 
       if attributes.has_key?(:'properties')
-        if (value = attributes[:'properties']).is_a?(Array)
+        if (value = attributes[:'properties']).is_a?(Hash)
           self.properties = value
         end
       end

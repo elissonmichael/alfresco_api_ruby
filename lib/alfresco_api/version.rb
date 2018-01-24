@@ -1,7 +1,7 @@
 =begin
 #Alfresco Content Services REST API
 
-#**Core API**  Provides access to the core features of Alfresco Content Services. 
+#**Core API**  Provides access to the core features of Alfresco Content Services.
 
 OpenAPI spec version: 1
 
@@ -11,5 +11,5 @@ Swagger Codegen version: 2.2.3
 =end
 
 module AlfrescoAPI
-  VERSION = "1.0.0"
+  VERSION = '1.0.1'.freeze
 end
